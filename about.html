@@ -1,0 +1,173 @@
+<!--
+  Name: Jayson Xu
+  Date: October 15th, 2024
+  Section: CSE 154 AB
+  This is the about.html page for my first creative project website.
+  It contains a simple introduction about myself and a link to another page which is
+  mainly my resume.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Teko&family=Poppins&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
+  <title>CP1 - About Me</title>
+</head>
+
+<body>
+  <header>
+    <h1>About Me: Jayson Xu</h1>
+  </header>
+
+
+  <button id="theme-toggle">Switch Theme</button>
+
+  <section>
+    <h2>About This Page</h2>
+    <p>
+      Hello! I'm Jayson Xu, a sophomore at UW majoring in Electrical and Computer Engineering.
+      This summer, I interned at a startup company dedicated to shooting sports in Issaquah.
+      Having worked on many projects, I’m looking forward to learning more about the frontend,
+      particularly web development, and creating a website to showcase my previous projects
+      in CSE 154.
+    </p>
+  </section>
+
+  <section>
+    <h3 id="classes-favorite">Classes I'm Currently Taking (in order of most-to-least
+      favorite lol)</h3>
+      <ol id="class-list">
+        <li>
+          <strong>CSE 154 - Web Programming</strong>
+          <button class="move-up">↑</button>
+          <button class="move-down">↓</button>
+          <p>My Favorite frontend class with database</p>
+        </li>
+        <li>
+          <strong>CSE 122 - Introduction to Programming II</strong>
+          <button class="move-up">↑</button>
+          <button class="move-down">↓</button>
+          <p>It's good that I can learn ArrayList, Maps, Stacks, and Queues</p>
+        </li>
+        <li>
+          <strong>CSE 123 - Object-Oriented Programming</strong>
+          <button class="move-up">↑</button>
+          <button class="move-down">↓</button>
+          <p>This course focuses on OOP which allows me to develop my calculator project.</p>
+        </li>
+        <li>
+          <strong>CSE 373 - Data Structure and Algorithm</strong>
+          <button class="move-up">↑</button>
+          <button class="move-down">↓</button>
+          <p>Essential algorithms and data structures.</p>
+        </li>
+        <li>
+          <strong>CSE 390 H - Honors Seminar</strong>
+          <button class="move-up">↑</button>
+          <button class="move-down">↓</button>
+          <p>A very selective, advanced seminar.</p>
+        </li>
+      </ol>
+  </section>
+
+  <section>
+    <h3 id="favorite-things">Five of My Favorite Things</h3>
+    <ul>
+      <li>
+        <strong>Favorite sport:</strong> Football
+        <p>
+          I support <a href="https://gohuskies.com/sports/football" target="_blank">UW Football</a>,
+          and <a href="https://en.wikipedia.org/wiki/Rome_Odunze" target="_blank">Rome Odunze</a>
+          is my favorite player.
+        </p>
+      </li>
+      <li><strong>Favorite food:</strong> My mom's homemade dumplings</li>
+      <li>
+        <strong>Favorite song:</strong>
+        <a href="https://open.spotify.com/track/1Pq1AgDICKXZvGWxLzBYH7?autoplay=true" target="_blank">
+          Family Business by Kanye West
+        </a>
+        <p>
+          From my favorite album, <a href="https://en.wikipedia.org/wiki/The_College_Dropout"
+          target="_blank">
+          The College Dropout</a>. This song makes me feel like I'm home, cozy near a furnace
+          on a couch.
+        </p>
+      </li>
+      <li>
+        <strong>Favorite hobby:</strong> Building robotics
+        <p>
+          I am the structure lead of
+          <a href="https://washingtonhyperloop.squarespace.com/" target="_blank">Washington Hyperloops</a>.
+        </p>
+      </li>
+      <li>
+        <strong>Favorite car:</strong>
+        <a href="https://www.alfaromeousa.com/models/quadrifoglio/giulia-quadrifoglio"
+        target="_blank">
+          Alfa Romeo Giulia
+        </a>
+        <p>It's my first car!</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 id="happy-picture">A picture that represents when I'm happy</h3>
+    <img id="happy-image" src="https://i.redd.it/iiuwu6it3tec1.jpeg"
+      alt="Kids playing by the seashore, Linkin Park's album cover">
+    <p>
+      Image source:
+      <a href="https://www.reddit.com/r/LinkinPark/comments/1abliky/does_anyone_know_there_story_behind_the_oml_album/"
+        target="_blank">
+        Reddit - One More Light album
+      </a>
+    </p>
+  </section>
+
+  <section>
+    <h3 id="sad-picture">A picture that represents when I'm sad</h3>
+    <img id="sad-image" src="https://media.istockphoto.com/id/687610952/photo/overcast-seattle-skyline-with-space-needle.jpg?s=612x612&w=0&k=20&c=wt8tiyCfJPYOFILl88wVWh_8AcDSGsg10JdU7guTrSk="
+      alt="A rainy day scene with dark clouds, Seattle">
+    <p>
+      Image source:
+      <a href="https://www.istockphoto.com/photo/overcast-seattle-skyline-with-space-needle-gm687610952-126400601"
+        target="_blank">
+        iStock - Overcast Seattle Skyline
+      </a>
+    </p>
+  </section>
+
+  <section>
+    <h3 id="favorite-quote">One of my favorite quotes</h3>
+    <article>
+      <blockquote>
+        <p>"Do what you can't."</p>
+        <footer>
+          — Casey Neistat,
+          <a href="https://www.youtube.com/watch?v=jG7dSXcfVqE" target="_blank">Source: YouTube</a>
+        </footer>
+      </blockquote>
+    </article>
+  </section>
+
+  <section>
+    <h3>Check Out My Portfolio</h3>
+    <p>
+      Want to see my projects? Visit my
+      <a href="portfolio.html" target="_blank">Portfolio Page</a> to learn more about my work and experiences!
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Jayson Xu. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+/*
+  Name: Jayson Xu
+  Date: October 15th, 2024
+  Section: CSE 154 AB
+
+  This is the styles.css file for my first Creative Project website. It styles the pages
+  to maintain a consistent look and feel. The styles include background color, typography,
+  and layout to enhance the visual appeal.
+*/
+
+body {
+  margin: 0 auto;
+  padding-left: 20px;
+  background-color: black;
+  color: white;
+  font-family: 'Teko', 'Poppins', 'Arial', sans-serif;
+  font-size: 22px;
+  width: 80%;
+  line-height: 1.6;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#classes-favorite,
+#favorite-things,
+#favorite-quote {
+  text-decoration: underline;
+}
+
+#happy-picture,
+#sad-picture,
+article {
+  margin: 20px auto;
+}
+
+#happy-picture,
+#sad-picture {
+  border: 3px solid;
+  padding: 10px;
+  display: block;
+}
+
+#happy-picture {
+  border-color: green;
+}
+
+#sad-picture {
+  border-color: blue;
+}
+
+#favorite-quote,
+blockquote {
+  text-align: center;
+}
+
+#favorite-quote {
+  font-style: italic;
+  color: #ffb400;
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+blockquote {
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #fff;
+}
+
+blockquote footer {
+  margin-top: 10px;
+  color: #a0a0a0;
+}
+
+article {
+  border: 2px solid #ffb400;
+  padding: 20px;
+  width: 80%;
+  background-color: #222;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out; /* Googled for smooth hover effect */
+}
+
+article:hover {
+  transform: scale(1.02); /* Slight zoom on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+.hidden {
+  display: none;
+}
+
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+button.light-mode {
+  background-color: #ddd;
+  color: black;
+}
+
+#happy-picture.light-mode {
+  border-color: lightgreen;
+}
+
+#sad-picture.light-mode {
+  border-color: lightblue;
+}
+
+/*
+   The following are the new Styles for Header and Button
+ */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#theme-toggle {
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+#theme-toggle:hover {
+  background-color: #ccc;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #8b008b;
+}
+
+nav a:hover {
+  color: #ff69b4;
+}

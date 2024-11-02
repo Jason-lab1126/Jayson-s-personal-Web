@@ -1,0 +1,96 @@
+<!--
+  Name: Jayson Xu
+  Date: October 15th, 2024
+  Section: CSE 154 AB
+  This is the portfolio.html page for my first creative project website.
+  It contains details about my projects and hobbies, showcasing my work and experience.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jayson Xu's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Teko&family=Poppins&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to My Portfolio!</h1>
+    <nav>
+      <a href="about.html" target="_blank">About Me</a>
+    </nav>
+  </header>
+
+  <button id="theme-toggle">Switch Theme</button>
+
+  <main>
+    <section id="projects">
+      <h2>Projects I've Worked On</h2>
+
+      <article>
+        <h3>Target Testing Bench</h3>
+        <button class="toggle-details">Click For Details</button>
+        <p class="project-details hidden">
+          During my internship at Level Up Live, I designed and developed a target testing bench
+          for shooting sports facilities. The project involved mechanical and electrical
+          integration, and it was a fantastic learning opportunity.
+        </p>
+      </article>
+
+      <article>
+        <h3>TBM Project for Washington Hyperloops</h3>
+        <button class="toggle-details">Click For Details</button>
+        <p class="project-details hidden">
+          As the structure lead of
+          <a href="https://washingtonhyperloop.squarespace.com/" target="_blank">
+            Washington Hyperloops</a>,
+          I worked on a tunnel boring machine project focusing on structural design and automation.
+          This was a challenging and rewarding experience that gave me hands-on skills in
+          engineering.
+        </p>
+      </article>
+
+      <article>
+        <h3>SET! Card Game</h3>
+        <button class="toggle-details">Click For Details</button>
+        <p class="project-details hidden">
+          As a personal endeavor, I engineered a digital rendition of the SET! card game, harnessing HTML5,
+          CSS3, and JavaScript. This application enables real-time player interactions, requiring users to
+          identify card sets by attributes such as number, color, shape, and shading. My technical
+          contributions included advanced game logic for card selection, set validation, and real-time
+          scoring. I implemented a dynamic state management system to enhance gameplay continuity. The
+          UI/UX was designed for intuitive interaction, incorporating responsive design for optimal
+          device compatibility and engaging animations for a compelling visual experience. This project
+          was an exercise in complex algorithmic challenges, ensuring a non-repetitive and immersive
+          gaming experience.
+        </p>
+      </article>
+
+      <article>
+        <h3>CSGO Themed Interactive Webpage</h3>
+        <button class="toggle-details">Click For Details</button>
+        <p class="project-details hidden">
+          I developed an interactive website centered around Counter-Strike: Global Offensive (CSGO),
+          leveraging multiple public APIs to display data on guns, magazines, and batches. The project integrates
+          the Fetch API for asynchronous data retrieval, handling JSON responses to dynamically update the UI.
+          Specific APIs used include the CSGO API for game-related data and the Free Dictionary API for terminologies.
+          Advanced JavaScript features were employed to implement interactive elements such as clickable icons
+          that play sound effects, enhancing the user interaction. Care was taken to optimize API requests,
+          implementing caching strategies to reduce load times and avoid exceeding request quotas. The page layout
+          was designed using modern CSS techniques, ensuring a responsive and engaging user experience across
+          different devices. Error handling was meticulously implemented to provide informative feedback,
+          ensuring a robust user experience even when API responses fail or are delayed.
+        </p>
+      </article>
+    </section>
+  </main>
+
+</body>
+
+</html>
